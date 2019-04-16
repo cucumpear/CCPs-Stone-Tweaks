@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  
+  <TerrainDef ParentName="TileStoneBase">
+    <defName>TilePinkMarble</defName>
+    <label>pink marble tile</label>
+      <color>(255,235,255)</color>
+    <costList>
+      <BlocksPinkMarble>4</BlocksPinkMarble>
+    </costList>
+  </TerrainDef>
+
+  <TerrainDef ParentName="TileStoneBase">
+    <defName>TileGreenMarble</defName>
+    <label>green marble tile</label>
+    <color>(130,145,110)</color>
+    <costList>
+      <BlocksGreenMarble>4</BlocksGreenMarble>
+    </costList>
+  </TerrainDef>
+
+  <TerrainDef ParentName="TileStoneBase">
+    <defName>TileBlueGranite</defName>
+    <label>blue granite tile</label>
+    <color>(108,122,135)</color>
+    <costList>
+      <BlocksBlueGranite>4</BlocksBlueGranite>
+    </costList>
+  </TerrainDef>
+
+
+	<TerrainDef ParentName="FlagstoneBase">
+		<defName>FlagstonePinkMarble</defName>
+		<label>pink marble flagstone</label>
+        <color>(255,235,255)</color>
+		<costList>
+			<BlocksPinkMarble>4</BlocksPinkMarble>
+		</costList>
+	</TerrainDef>
+
+	<TerrainDef ParentName="FlagstoneBase">
+		<defName>FlagstoneGreenMarble</defName>
+		<label>green marble flagstone</label>
+		<color>(130,145,110))</color>
+		<costList>
+			<BlocksGreenMarble>4</BlocksGreenMarble>
+		</costList>
+	</TerrainDef>
+
+	<TerrainDef ParentName="FlagstoneBase">
+		<defName>FlagstoneBlueGranite</defName>
+		<label>blue granite flagstone</label>
+		<color>(108,122,135)</color>
+		<costList>
+			<BlocksBlueGranite>4</BlocksBlueGranite>
+		</costList>
+	</TerrainDef>
+	
+</Defs>

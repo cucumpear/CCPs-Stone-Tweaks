@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="ModCheck.isModLoaded">
+				<modName>Stuffed Floors</modName>
+				<yourMod>CCP's Stone Tweaks</yourMod>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/StuffedFloors.FloorTypeDef[defName = "StuffedFlagstones"]/obsoletes</xpath>				
+				  <value>
+						<li>FlagstonePinkMarble</li>
+						<li>FlagstoneGreenMarble</li>
+						<li>FlagstoneBlueGranite</li>
+				  </value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/StuffedFloors.FloorTypeDef[defName = "StuffedSmoothTiles"]/obsoletes</xpath>				
+				  <value>
+					<li>TilePinkMarble</li>
+					<li>TileGreenMarble</li>
+					<li>TileBlueGranite</li>
+				  </value>
+			</li>
+		</operations>
+	</Operation>
+</Patch>
